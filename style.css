@@ -480,6 +480,22 @@
             .project-grid {
                 grid-template-columns: 1fr;
             }
+
+            .about-content {
+                flex-direction: column;
+                gap: 2rem;
+            }
+
+            .about-image {
+                flex: 0 0 auto;
+                max-width: 250px;
+                width: 100%;
+                margin: 0 auto;
+            }
+
+            .about-text {
+                width: 100%;
+            }
         }
 
         @media (max-width: 640px) {
