@@ -4,20 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Dionis Minev - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <path d="M8 8L16 16L24 8M24 24L16 16L8 24" stroke="white" stroke-width="2" stroke-linecap="round"/>
-                </svg>
+                <h4>Dionis Minev</h4>
+                <p>Software Engineer</p>
             </div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#home">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,41 +26,105 @@
             </div>
         </nav>
     </header>
-
+    
+    <section id="about" class="about">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">ABOUT ME</span>
+        </div>
+        <div class="about-content" style="display: flex; align-items: flex-start; gap: 20px;">
+            <div class="about-image" style="flex: 0 23 auto; max-width: 300px;">
+                <img src="imgs/infineon picture.jpg" alt="Picture of Me" style="width: 100%; height: auto; border-radius: 8px;">
+            </div>
+            <div class="about-text" style="flex: 1;">
+                <p>I’m a recent Computer Science graduate with practical, hands-on experience gained during my Software Engineering Internship at Infineon Technologies. During the Internship, I worked mainly with Python and MATLAB Scripting, focusing on data parsing, data wrangling, and automation tasks. One of my key projects was developing a desktop application that parsed A2L files and converted them into XML configuration files used by Infineon’s GUI Designer tool.
+I really enjoy working in a team environment where people are motivated to create useful, functional solutions and keep improving. When I’m assigned a project or task, I take full ownership of it — I stay focused, work step by step, and keep going until everything is properly finished and working well.
+I’m excited to join a team that values clean code, practical results, and steady progress, and where I can continue learning while contributing with my skills and problem-solving mindset.</p>
+                <div class="skills">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Web Development</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- <hr> -->
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1>Crafting digital<br>experiences</h1>
+                <span class="section-label">EDUCATION AND WORK EXPERIENCE</span>
+                <h3>Education - Faculty of Computer Science and Engineering - Skopje</h3>
+                <h3>(2021-2025), skills achieved:</h3>
                 <div class="feature-list">
                     <div class="feature-item active">
                         <div class="feature-bullet"></div>
                         <div>
-                            <h3>Design with purpose</h3>
+                            <p>Web Development with Java Spring Boot, Python Django + HTML/CSS/React</p>
                         </div>
                     </div>
                     <div class="feature-item active">
                         <div class="feature-bullet"></div>
                         <div>
-                            <h3>Build with precision</h3>
-                            <p>Creating responsive, accessible websites and applications that deliver exceptional user experiences across all devices.</p>
+                            <p>GIT, CI/CD</p>
                         </div>
                     </div>
-                    <div class="feature-item">
+                    <div class="feature-item active">
                         <div class="feature-bullet"></div>
                         <div>
-                            <h3>Innovate continuously</h3>
+                            <p>Data wrangling, scraping, processing</p>
                         </div>
                     </div>
-                    <div class="feature-item">
+                    <div class="feature-item active">
                         <div class="feature-bullet"></div>
                         <div>
-                            <h3>Deliver excellence</h3>
+                            <p>Software Engineering</p>
                         </div>
                     </div>
-                    <div class="feature-item">
+                    <div class="feature-item active">
                         <div class="feature-bullet"></div>
                         <div>
-                            <h3>Collaborate effectively</h3>
+                            <p>AI Concepts</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <hr> -->
+                <div class="hero-work">
+                    <h3>Work Experience - Software Engineering Intern</h3>
+                    <h3>Infineon Technologies GmbH - Munich, Germany (Summer 2025)</h3>
+                    <div class="feature-list">
+                        <div class="feature-item active">
+                            <div class="feature-bullet"></div>
+                            <div>
+                                <p>Developed a desktop application using Python</p>
+                            </div>
+                        </div>
+                        <div class="feature-item active">
+                            <div class="feature-bullet"></div>
+                            <div>
+                                <p>Automated various tasks through the application</p>
+                            </div>
+                        </div>
+                        <div class="feature-item active">
+                            <div class="feature-bullet"></div>
+                            <div>
+                                <p>Enabled parsing of A2L files into XML files</p>
+                            </div>
+                        </div>
+                        <div class="feature-item active">
+                            <div class="feature-bullet"></div>
+                            <div>
+                                <p>Utilized the generated XML files as configuration files</p>
+                            </div>
+                        </div>
+                        <div class="feature-item active">
+                            <div class="feature-bullet"></div>
+                            <div>
+                                <p>Integrated with a GUI Designer developed by Infineon Technologies</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -77,58 +140,45 @@
                 </div>
                 <div class="floating-elements">
                     <div class="float-card" style="top: 10%; left: 5%;">
-                        <div class="card-label">UI/UX</div>
+                        <div class="card-label">databases, SQL</div>
                     </div>
                     <div class="float-card" style="top: 30%; right: 10%;">
-                        <div class="card-label">FRONTEND</div>
+                        <div class="card-label">frontend</div>
                     </div>
                     <div class="float-card" style="bottom: 25%; left: 15%;">
-                        <div class="card-label">RESPONSIVE</div>
+                        <div class="card-label">backend</div>
                     </div>
-                    <div class="float-card" style="bottom: 10%; right: 5%;">
-                        <div class="card-label">CREATIVE</div>
+                    <div class="float-card" style="bottom: 18%; right: 13%;">
+                        <div class="card-label">python</div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">ABOUT</span>
-                <h2>Who I am</h2>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I’m a recent Computer Science graduate with hands-on experience
-from a software engineering internship in Infineon Technologies. 
-The internship was focused on data parsing and wrangling with
-Python. I’m highly motivated to work with a team that wants to
-progress by developing functional solutions. When given a project I’m
-working on it effortlessly until it is finished.</p>
-                    <div class="skills">
-                        <span class="skill-tag">HTML/CSS</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">UI/UX Design</span>
-                        <span class="skill-tag">Responsive Design</span>
+                    <div class="float-card" style="bottom: 45%; right: 35%;">
+                        <div class="card-label">git</div>
+                    </div>
+                    <div class="float-card" style="bottom: 45%; right: 65%;">
+                        <div class="card-label">django</div>
+                    </div>
+                    <div class="float-card" style="bottom: 65%; right: 36%;">
+                        <div class="card-label">java</div>
+                    </div>
+                    <div class="float-card" style="bottom: 80%; right: 40%;">
+                        <div class="card-label">JavaScript</div>
+                    </div>
+                    <div class="float-card" style="bottom: 65%; right: 55%;">
+                        <div class="card-label">TypeScript</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <!-- <hr> -->
     <section id="projects" class="projects">
         <div class="container">
             <div class="section-header">
-                <span class="section-label">WORK</span>
-                <h2>Featured projects</h2>
+                <span id="latest-projects" class="section-label">LATEST PROJECTS</span>
             </div>
             <div class="project-grid">
                 <div class="project-card">
-                    <div class="project-image"></div>
+                    <div class="project-image"><img src="imgs/a2lToXml.jpg" alt="Python A2L to XML conversion tool"></div>
                     <div class="project-info">
                         <h3>Python Desktop App</h3>
                         <p>Built a desktop application using Python to automate the conversion of A2L files to XML format, creating configuration files for Infineon's GUI Designer and eliminating repetitive manual tasks in the development pipeline.</p>
@@ -140,7 +190,7 @@ working on it effortlessly until it is finished.</p>
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image"></div>
+                    <div class="project-image"><img src="imgs/ytb-transcriber.jpg" alt="Youtube Transcriber WebApp"></div>
                     <div class="project-info">
                         <h3>YouTube Transcriber</h3>
                         <p>Engineered a full-stack YouTube transcription tool with FastAPI, yt-dlp, and Whisper AI that automates audio extraction, speech-to-text conversion, and AI-powered summarization, enabling users to instantly access transcripts and key takeaways.</p>
@@ -152,7 +202,7 @@ working on it effortlessly until it is finished.</p>
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image"></div>
+                    <div class="project-image"><img src="imgs/mobileapplooksmaxxing.jpg" alt="LooksMaxxing Mobile App"></div>
                     <div class="project-info">
                         <h3>Face Analysis Mobile App</h3>
                         <p>Developed a cross-platform mobile application using React Native and Expo with a FastAPI Python backend, integrating OpenCV for real-time facial detection and analysis, delivering instant insights on facial features and attributes through an intuitive mobile interface.</p>
